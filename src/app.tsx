@@ -1,7 +1,15 @@
+import {CodeEditor} from './code-editor'
+
 export function App() {
   return (
-    <>
-      <h1>App</h1>
-    </>
+    <div className="app">
+      <header>
+        <h1>Monaco Editor</h1>
+        <hr />
+      </header>
+      <main>
+        <CodeEditor />
+      </main>
+    </div>
   )
 }
