@@ -4,7 +4,7 @@ export function App() {
   return (
     <div className="app">
       <header>
-        <h1>Monaco Editor</h1>
+        <h1>{'__APP_TITLE__'}</h1>
         <hr />
       </header>
       <main>
